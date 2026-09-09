@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "spec_globs": ["**/*.feature.md"],
+  "exclude_globs": [".specdriven/**"],
+  "scenario_statuses": ["published", "proposed"],
+  "code_repo_candidates": ["../insurance-java", "../insurance-cap-java"],
+  "code_repo_url": "https://github.com/SpecDriven/insurance-cap-java.git",
+  "test_link_prefix": "https://github.com/SpecDriven/insurance-cap-java/blob/main/",
+  "policy": {
+    "fail_on_malformed_scenario": true,
+    "fail_on_duplicate_scenario": true,
+    "warn_on_published_without_test": true,
+    "fail_on_missing_local_test_target": true,
+    "fail_on_missing_named_test_method": true
+  }
+}
